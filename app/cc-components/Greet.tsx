@@ -2,10 +2,12 @@
 import { trpc } from "@/trpc-client/client"
 
 function Greet() {
-    const {data} = trpc.greet.useQuery();
+    const {data: greet} = trpc.greet.useQuery();
+    const {data: user} = trpc.createUser.useQuery();
   return (
     <div>
-      {data}
+      {greet?.message}
+      {user?.message}
     </div>
   )
 }
