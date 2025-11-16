@@ -52,7 +52,7 @@ export function LoginSupport() {
                         <form onSubmit={form.handleSubmit(onSubmit)}>
                             <div className="grid gap-5">
                                 <div className="flex flex-col gap-5">
-                                    <Button variant="outline" className="w-full flex items-center justify-center     gap-2" disabled={isPending}>
+                                    <Button variant="outline" className="w-full flex items-center justify-center gap-2" disabled={isPending}>
                                         <FaGithub className="h-4 w-4" />
                                         Continue with Github
                                     </Button>

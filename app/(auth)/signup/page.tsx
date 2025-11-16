@@ -1,7 +1,11 @@
+"use client"
+
+import { RegistrationForm } from "@/app/cc-components/auth/Registration-form";
+
 function page() {
     return(
         <div>
-            Sign up
+            <RegistrationForm />
         </div>
     )
 }
