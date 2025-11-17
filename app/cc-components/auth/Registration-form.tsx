@@ -71,7 +71,7 @@ export function RegistrationForm() {
                                 <div className="flex flex-col gap-5">
                                     <Button variant="outline" className="w-full flex items-center justify-center gap-2" disabled={isPendingSumbit}>
                                         <FaGithub className="h-4 w-4" />
-                                        Continue with Github
+                                        Continue with GitHub
                                     </Button>
                                     <Button variant="outline" className="w-full flex items-center justify-center gap-2" type="button" disabled={isPendingSumbit}>
                                         <FaGoogle className="h-4 w-4"/>
@@ -79,7 +79,7 @@ export function RegistrationForm() {
                                     </Button>
                                     <Button variant="outline" className="w-full flex items-center justify-center gap-2" type="button" disabled={isPendingSumbit}>
                                         <FaGitlab className="h-4 w-4"/>
-                                        Continue with Gitlab
+                                        Continue with GitLab
                                     </Button>
                                 </div>
                                 <div className="grid gap-6">
