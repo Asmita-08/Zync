@@ -1,7 +1,7 @@
 'use client';
-import { Button } from "@/components/ui/button";
-// <-- hooks can only be used in client components
+
 import { trpc } from "../api/trpc/client";
+import { LogoutButton } from "./LogOut";
 
 export function Greeting() {
   
@@ -10,9 +10,7 @@ export function Greeting() {
   return(
     <div className="min-w-screen min-h-screen flex flex-col font-semibold items-center justify-center gap-y-6">
        <div> {JSON.stringify(data, null, 2)} </div>
-       <Button>
-          Log Out
-       </Button>
+      <LogoutButton />
     </div>
   )
 }
